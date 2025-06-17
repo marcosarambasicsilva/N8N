@@ -8,7 +8,7 @@ form.addEventListener('submit', async (e) => {
     status.textContent = "Enviando...";
 
     try {
-        const response = await fetch('https://marcos-arambasic11.app.n8n.cloud/webhook-test/empresa-pesquisada', {
+        const response = await fetch('https://marcos-arambasic11.app.n8n.cloud/webhook/empresa-pesquisada', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
